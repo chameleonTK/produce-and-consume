@@ -19,6 +19,6 @@ public class TestCLI {
         // Item.printInfoMessages = true;
 
         Game game = new Game(grid);
-        game.run(50);
+        game.run(2);
     }
 }

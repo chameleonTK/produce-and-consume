@@ -26,7 +26,7 @@ public class Application extends JFrame {
         setResizable(false);
         pack();
         
-        setTitle("CS5001");
+        setTitle("Producers and Consumers");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
