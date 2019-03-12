@@ -1,6 +1,5 @@
 # Producers and Consumers
-A simple single-player strategy game. It is played on a rectangular grid having a goal to maximize the score. Before the game
-starts, the player places items on the cells of the grid. There are both command-line interface and graphical user interface.
+Producers and Consumers is a simple single-player strategy game. It is played on a rectangular grid having a goal to maximize the score. The player places items on the cells of the grid. Once the game is started, the game will runs automatically and produces a **final score** without any player interaction. The score is calculated by the number of products consumed divided by products produced. There are both command-line interface and graphical user interface.
 
 <p align="center">
   <img width="460" height="493" src="img/gui.png">
@@ -16,8 +15,6 @@ The game consist of 3 components:
 When the game starts, all items will do their job within thier own conditions.
 
 At each time-step, the items will work in the following order: *all farmers, all transporters and all consumers starting from top-left, processing a row completely before moving to the next row*
-
-Once the game is started, the game will runs automatically and produces a **final score** without the player interaction. The score is calculated by the number of products consumed divided by products produced.
 
 ## Farmer
 #### Corn farmers
@@ -68,10 +65,11 @@ It is an part of [CS5001](https://info.cs.st-andrews.ac.uk/student-handbook/modu
 ![](img/uml.png)
 
 ## How to play
-A player write Test.java as an example below. Then, run and see your own score. Other examples are [TestCLI.java](src\core\TestCLI.java) and [TestGUI.java](src\core\TestGUI.java)
+A player needs to write Test.java as an example below to place items. Then, run and see your own score. Other examples are shown in [TestCLI.java](src/core/TestCLI.java) and [TestGUI.java](src/core/TestGUI.java)
 
-```javapackage core;
+```java
 
+package core;
 import core.gui.*;
 import core.game.*;
 import java.awt.EventQueue;
