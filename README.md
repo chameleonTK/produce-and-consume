@@ -1,5 +1,7 @@
 # Producers and Consumers
-Producers and Consumers is a simple single-player strategy game. It is played on a rectangular grid having a goal to maximize the score. The player places items on the cells of the grid. Once the game is started, the game will runs automatically and produces a **final score** without any player interaction. The score is calculated by the number of products consumed divided by products produced. There are both command-line interface and graphical user interface.
+Producers and Consumers is a simple single-player strategy game. It is played on a rectangular grid having a goal to maximize the score. 
+
+The player places items on the cells of the grid. Once the game is started, the game will runs automatically and produces a **final score** without any player interaction. The score is calculated by the number of products consumed divided by products produced. There are both command-line interface and graphical user interface.
 
 <p align="center">
   <img width="460" height="493" src="img/gui.png">
